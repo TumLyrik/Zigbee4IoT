@@ -11,7 +11,7 @@ from PyQt5.QtCore import (Qt, QTimer, QPointF, QIODevice, pyqtSlot)
 
 #from random import randint
 
-STR_COM = 'COM10'
+STR_COM = 'ttyUSB0'
 NODE_NUM = 8
 REFRESH_TIME_MS = 100
 dataRxList= []
